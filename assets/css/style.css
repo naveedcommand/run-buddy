@@ -9,6 +9,9 @@
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 body {
@@ -22,7 +25,7 @@ header h1 {
     color: #fce138;
     margin: 0;
 /* Important: This sets the header h1 and list to show on same line */    
-    display: inline;
+/*    display: inline;  */
 }
 
 header a {
@@ -32,7 +35,7 @@ header a {
 
 /* Important: This sets the navigation links to show on right of Run Buddy text (which is a block) */
 header nav {
-    float: right;
+/*    float: right;     */
     margin: 7px 0;
 }
 
