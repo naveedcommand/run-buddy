@@ -44,11 +44,21 @@ header nav li {
     display: inline;
 }
 
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;     /* horizontal alignment */
+    align-items: center;                /* vertical alignment */
+    list-style: none;
+}
+
 
 footer {
     background: #fce138;
